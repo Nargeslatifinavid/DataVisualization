@@ -220,7 +220,7 @@ class App extends Component {
                 alignItems="center"
                 spacing={3}
               >
-                <a href="." className="no-a">
+                <a href="https://github.com/Nargeslatifinavid/DataVisualization" className="no-a">
                 <img className='iconZoom'
                   src="/images/Github.png"
                   style={{
@@ -229,7 +229,7 @@ class App extends Component {
                   }}
                   alt="github" />
                   </a>
-                <a className="footer-link" style={{ color: "white", textDecoration: 'none', fontSize: "18px" }} href="">Project Github</a>
+                <a className="footer-link" style={{ color: "white", textDecoration: 'none', fontSize: "18px" }} href="https://github.com/Nargeslatifinavid/DataVisualization">Project Github</a>
               </Stack>
             </Stack>
           </Stack>
