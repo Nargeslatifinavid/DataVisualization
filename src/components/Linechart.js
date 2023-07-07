@@ -105,7 +105,7 @@ class LineChart extends Component {
       .attr('x', -height / 2)
       .attr('y', margin.left / 2 - 10)
       .attr('text-anchor', 'middle')
-      .text('Amount');
+      .text('Total death per million');
   }
 
   render() {

@@ -12,12 +12,17 @@ class Helper {
         const dataList = lines.map((line) => line.split(','));
         return dataList;
       };
-    static async getTask1Data(index){
+      
+    static async getTask1Data(){
         let data = await this.fetchCSVFile(barchartDatasetPath);
         data.splice(0,1);
-        data = data.map((line) => { return {country: line[0], value: parseFloat(line[index])} })
-        .sort((a, b) => b.value - a.value);
-        return data;
+        let dataResult = [];
+        for (let index = 1; index < 4; index++) {       
+            let dataTemp = data.map((line) => { return {country: line[0], value: parseFloat(line[index])} })
+            .sort((a, b) => b.value - a.value);
+            dataResult.push(dataTemp);
+        }
+        return dataResult;
     }
     static async getTask2Data(){
         let data = await this.fetchCSVFile(linechartDatasetPath);

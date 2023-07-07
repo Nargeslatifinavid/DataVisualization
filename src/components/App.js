@@ -70,7 +70,7 @@ class App extends Component {
             src="/images/Virus.png"
             style={{
               marginTop: "30px",
-              width: '300px',
+              width: '260px',
               height: 'auto',
             }}
             alt="Virus"
@@ -91,11 +91,13 @@ class App extends Component {
             sx={{
               textAlign: 'justify',
               color: '#ebebeb',
-              width: "60%"
+              width: "72%"
             }}
           >
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur attis ligula eu dolor.
-          </Typography>
+            One of the most important phenomena in recent years has been the Covid19 pandemic. This phenomenon has affected the whole world. There are many aspects to study the impact of Covid19 and its associated problems. One of the best ways to study this is to visualize the data obtained. Presenting the data with different diagrams helps to compare and understand the results properly.
+For this reason, we will try to design some charts to show some statistics about covid19. We will also present some results and analysis of these charts. In this project, we will show the statistics about topics like the number of cases, deaths, vaccinations, types and number of vaccines used, etc. These statistics will be considered by age groups or time intervals in European Union countries.
+
+             </Typography>
         </Stack>
         <Stack
           direction="row"
@@ -187,7 +189,7 @@ class App extends Component {
                 alignItems="center"
                 spacing={3}
               >
-                <a href="https://github.com/behnamartss/Lioninside" className="no-a">
+                <a href="https://nargeslatifinavid.github.io" className="no-a">
                 <img className='iconZoom'
                   src="/images/Github.png"
                   style={{
@@ -220,7 +222,7 @@ class App extends Component {
                 alignItems="center"
                 spacing={3}
               >
-                <a href="https://github.com/Nargeslatifinavid/DataVisualization" className="no-a">
+                <a href="https://github.com/Nargeslatifinavid/DataVisualisation" className="no-a">
                 <img className='iconZoom'
                   src="/images/Github.png"
                   style={{
